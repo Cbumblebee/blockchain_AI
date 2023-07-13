@@ -95,7 +95,7 @@ def transaction():
   # Then we let the client know it worked out
   return "Transaction submission successful\n"
 
-#~~~~~~~~ consensus ~~~~~~~~#
+#~~~~~~~~ consensus change1 ~~~~~~~~#
 
 @node.route('/blocks', methods=['GET'])
 def get_blocks():
